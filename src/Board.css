@@ -1,0 +1,17 @@
+/* src/Board.css */
+.square {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px; 
+    border: 1px solid #000;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.board-row {
+    display: flex;
+    align-items: center; 
+}
